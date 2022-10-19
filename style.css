@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background: #f6f5f7; 
+    font-family: 'Montserrat', sans-serif;
+    color: #3E363F;
+}
+
+#contenedor{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden; /* Para que los bordes funcionen */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+#calculadora{
+    background: white;
+    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detalle{
+    background: #FF416C;
+    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: #f6f5f7;
+}
+
+.contenido{
+    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+}
+
+.item{
+    /* estas 2 lineas son para que los items se muestren como una columna */
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+input {
+	width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #eee;
+}
+
+span {
+	font-size: 12px;
+}
+
+button {
+    font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #FF416C;
+	border: 1px solid #FF416C;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.resultado{
+    color: #0A81D1;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    background: #f6f5f7; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+ul {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+    list-style-position: inside;
+}
+
+span {
+	font-size: 12px;
+}
+
+#calcular {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #FF416C;
+	border: 1px solid #FF416C;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+    margin-top: 40px;
+}
+
+#otros {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #ff4b2b00;
+	border: 1.5px solid #ffffff;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+    margin-top: 20px;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+.contenedor{
+    background-color: #FFFFFF;
+    overflow: hidden;
+    width: 700px;
+    min-height: 480px;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.item {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.calculadora {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.datos {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #FF416C;
+    color: #FFFFFF;
+}
+
+.contenido {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input {
+	width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #eee;
+}
+
+#error{
+    display: none;
+    margin-bottom: -25px;
+    color: red;
+    font-weight: 550;
+}
+
+#resultado {
+    display: none;
+    font-size: 30px;
+    color: #FF416C;
+    font-weight: bold;
+} */
+
